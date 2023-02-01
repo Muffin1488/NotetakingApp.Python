@@ -1,5 +1,5 @@
 import os
-
+print ("Welcome to my note taking app")
 userfile = input("Name your File or Choose your file \n")
 WriteReadDelete = input("W to write file, R to read file,D to delete file")
 if ".txt" not in userfile:
